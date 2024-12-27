@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FEEDBACK MANAGEMENT SYSTEM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Feedback form</div>
+    <input type="text" class="search-bar" placeholder="Search...">
+    <button class="login-btn">Log In</button>
+    <button class="signup-btn">Sign Up</button>
+  </header>
+
+  <main class="main-content">
+    <aside class="sidebar">
+      <h2>Communities</h2>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Science</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Sports</a></li>
+      </ul>
+    </aside>
+
+    <section class="posts">
+      <div class="new-post">
+        <textarea placeholder="Create a new post..." class="post-input"></textarea>
+        <button class="post-btn">Post</button>
+      </div>
+
+      <div class="post">
+        <div class="post-votes">
+          <button>▲</button>
+          <span>123</span>
+          <button>▼</button>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">What is your favorite programming language?</h3>
+          <p class="post-details">Posted by <span class="username">u/coder123</span> in <span class="community">r/Programming</span></p>
+          <div class="post-actions">
+            <button>Comment</button>
+            <button>Share</button>
+            <button>Save</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post-votes">
+          <button>▲</button>
+          <span>98</span>
+          <button>▼</button>
+        </div>
+        <div class="post-content">
+          <h3 class="post-title">Latest advancements in AI</h3>
+          <p class="post-details">Posted by <span class="username">u/techlover</span> in <span class="community">r/Technology</span></p>
+          <div class="post-actions">
+            <button>Comment</button>
+            <button>Share</button>
+            <button>Save</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy;end</p>
+  </footer>
+</body>
+</html>
